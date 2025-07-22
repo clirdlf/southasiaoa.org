@@ -1,7 +1,7 @@
 {
-  "name": "forum2025",
-  "version": "1.1.0",
-  "description": "DLF Forum 2025 site",
+  "name": "SAOA",
+  "version": "0.0.1",
+  "description": "South Asia Open Archives",
   "scripts": {
     "start": "run-p start:*",
     "start:eleventy": "eleventy --serve",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clirdlf/forum2025.diglib.org.git"
+    "url": "https://github.com/clirdlf/saoa.git"
   },
   "keywords": [
     "eleventy",
@@ -30,9 +30,9 @@
   ],
   "author": "DLF",
   "license": "Unlicense",
-  "homepage": "https://github.com/clirdlf/forum2025.diglib.org/#readme",
+  "homepage": "https://github.com/clirdlf/saoa/#readme",
   "bugs": {
-    "url": "https://github.com/clirdlf/forum2025.diglib.org/issues"
+    "url": "https://github.com/clirdlf/saoa/issues"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
