@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@config '../../tailwind.config.js';
+
+@layer components {
+  #btn-back-to-top {
+    @apply fixed! end-5 bottom-5 hidden rounded-full bg-blue-700 p-3 text-xs leading-tight font-medium text-white uppercase shadow-md transition duration-150 ease-in-out hover:bg-blue-800 hover:shadow-lg focus:bg-blue-800 focus:shadow-lg focus:ring-0 focus:outline-hidden active:bg-blue-700 active:shadow-lg;
+  }
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+
+  /* scroll-padding-top: 15rem;  */
+}
+
+.tab-content {
+  transition: opacity 300ms ease-in-out;
+}
+
+#search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 50;
+  border: 1px solid #ccc;
+}
+
+#search-results a {
+  display: block;
+  padding: 0.25rem 0.5rem;
+}
+
+#search-results a:hover {
+  background-color: #f0f0f0;
+}
