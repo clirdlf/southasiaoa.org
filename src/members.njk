@@ -1,0 +1,28 @@
+---
+title: Institutional Contacts
+description: Contact information for institutional members of the organization.
+layout: page.njk
+---
+
+<section class="overflow-x-auto">
+    <table class="min-w-full divide-y divide-gray-200 border rounded-md shadow-sm">
+        <thead class="bg-gray-50">
+            <tr>
+                <th scope="col" class="px-4 py-3 text-left text-sm font-semibold text-blue-500 uppercase tracking-wider">
+                    Institution
+                </th>
+                <th scope="col" class="px-4 py-3 text-left text-sm font-semibold text-blue-500 uppercase tracking-wider">
+                    Contact
+                </th>
+            </tr>
+        </thead>
+        <tbody class="bg-white divide-y divide-gray-100">
+            {% for member in members %}
+            <tr>
+                <td class="px-4 py-3">{{ member.institution }}</td>
+                <td class="px-4 py-3">{{ member.contact }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>

@@ -1,7 +1,9 @@
 @import 'tailwindcss';
 
 @layer components {
-  
+  .font-libre {
+    @apply font-[Libre_Baskerville] text-gray-600;
+  }
 }
 
 /*
