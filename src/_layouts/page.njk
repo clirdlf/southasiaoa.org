@@ -9,7 +9,15 @@ layout: default.njk
         <p class="text-gray-700 text-center">
             {{ description }}
         </p>
+        {% include 'color-bars.njk' %}
     </header>
     
     {{ content | safe }}
+
+    {# Updated Info #}
+    {% if date %}
+    <footer class="text-sm text-gray-500 mt-6">
+        <p>Updated on October 16, 2020</p>
+    </footer>
+    {% endif %}
 </div>

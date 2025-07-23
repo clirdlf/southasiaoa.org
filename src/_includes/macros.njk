@@ -1,0 +1,73 @@
+{# macros.njk #}
+
+{% macro section(title, content) %}
+    <section class="space-y-4 mb-10">
+        <h2 class="text-xl font-semibold text-blue-500">{{ title }}</h2>
+        {{ content | safe }}
+    </section>
+{% endmacro %}
+
+{% macro subsection(title, content) %}
+    <div class="space-y-2">
+        <h3 class="text-lg font-semibold text-blue-500">{{ title }}</h3>
+        {{ content | safe }}
+    </div>
+{% endmacro %}
+
+{% macro link(href, text) %}
+    <a href="{{ href }}" class="text-blue-600 underline hover:text-blue-800">{{ text }}</a>
+{% endmacro %}
+
+{% macro bulletList(items) %}
+    <ul class="list-disc list-inside space-y-1">
+        {% for item in items %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+{% endmacro %}
+
+{% macro collapsible(title, content) %}
+    <details class="border rounded-md p-4 mb-4">
+        <summary class="cursor-pointer text-blue-600 font-medium">{{ title }}</summary>
+        <div class="mt-2 text-sm text-gray-700 space-y-2">
+            {{ content | safe }}
+        </div>
+    </details>
+{% endmacro %}
+
+{% macro button(href, text, type = "primary") %}
+    {% if type == "primary" %}
+        <a href="{{ href }}" class="inline-block bg-blue-500 text-white px-5 py-2 rounded hover:bg-blue-600 transition">
+            {{ text }}
+        </a>
+    {% elif type == "secondary" %}
+        <a href="{{ href }}" class="inline-block border border-blue-500 text-blue-600 px-5 py-2 rounded hover:bg-blue-50 transition">
+            {{ text }}
+        </a>
+    {% endif %}
+{% endmacro %}
+
+{% macro table(headers = [], rows = []) %}
+    <div class="overflow-x-auto mb-6">
+        <table class="min-w-full divide-y divide-gray-200 border rounded-md shadow-sm">
+            <thead class="bg-gray-50">
+                <tr>
+                    {% for header in headers %}
+                        <th scope="col" class="px-4 py-3 text-left text-sm font-semibold text-blue-500 uppercase tracking-wider">
+                            {{ header }}
+                        </th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-100">
+                {% for row in rows %}
+                    <tr>
+                        {% for cell in row %}
+                            <td class="px-4 py-3">{{ cell }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endmacro %}
