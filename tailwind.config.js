@@ -1,7 +1,6 @@
 module.exports = {
   content: [
     "./src/**/*.{html,njk}",
-    //"./node_modules/tw-elements/js/**/*.js"
   ],
   theme: {
     extend: {
@@ -11,6 +10,7 @@ module.exports = {
       },
       colors: {
         saoaBlue: "#0399FE",
+        saoaBlueDark: "#0274BD",
         saoaPink: "#EB008D",
         saoaYellow: "#F9BE46",
       },
