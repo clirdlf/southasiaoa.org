@@ -1,5 +1,5 @@
 {
-  "name": "SAOA",
+  "name": "southasiaoa.org",
   "version": "0.0.1",
   "description": "South Asia Open Archives",
   "scripts": {
@@ -69,5 +69,8 @@
     "postcss-nested": "^7.0.2",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.14"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
