@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @plugin "@tailwindcss/typography";
 
 @layer components {
@@ -24,9 +25,11 @@
   h6 {
     @apply font-semibold text-blue-500;
   }
+  
   h1 {
     @apply text-3xl md:text-4xl font-bold text-gray-600 font-[Libre_Baskerville];
   }
+  
   h2 {
     @apply text-xl mb-2;
   }
