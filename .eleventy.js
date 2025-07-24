@@ -1,67 +1,67 @@
 // const fs = require("fs");
-const htmlmin = require('html-minifier-terser');
+const htmlmin = require("html-minifier-terser");
 // const { type } = require("os");
-const { DateTime } = require('luxon');
+const { DateTime } = require("luxon");
 
-const { eleventyImageTransformPlugin } = require('@11ty/eleventy-img');
-const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
-const emojiReadTime = require('@11tyrocks/eleventy-plugin-emoji-readtime'); // https://github.com/5t3ph/eleventy-plugin-emoji-readtime
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime"); // https://github.com/5t3ph/eleventy-plugin-emoji-readtime
 
 // const { format } = require("path");
-const CleanCSS = require('clean-css');
+const CleanCSS = require("clean-css");
 
 // 11ty plugins
-const eleventyPluginHubspot = require('eleventy-plugin-hubspot');
+const eleventyPluginHubspot = require("eleventy-plugin-hubspot");
 
-const { IdAttributePlugin, HtmlBasePlugin } = require('@11ty/eleventy');
-const gitBranch = require('git-branch');
+const { IdAttributePlugin, HtmlBasePlugin } = require("@11ty/eleventy");
+const gitBranch = require("git-branch");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setTemplateFormats(['njk', 'js', 'md', 'html']);
+  eleventyConfig.setTemplateFormats(["njk", "js", "md", "html"]);
 
-  eleventyConfig.addBundle('css');
-  eleventyConfig.addBundle('js');
+  eleventyConfig.addBundle("css");
+  eleventyConfig.addBundle("js");
 
   // const branch = process.env.GIT_BRANCH || 'main';
-  const branch = gitBranch.sync() || 'main';
+  const branch = gitBranch.sync() || "main";
 
   // console.log("Branch: ", branch);
 
   if (process.env.ELEVENTY_PRODUCTION) {
-    eleventyConfig.addTransform('htmlmin', htmlminTransform);
+    eleventyConfig.addTransform("htmlmin", htmlminTransform);
   }
 
   // Preprocessors
-  eleventyConfig.addPreprocessor('drafts', '*', (data, content) => {
-    if (data.draft && process.env.ELEVENTY_RUN_MODE === 'build') {
+  eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+    if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
       return false;
     }
   });
 
   // Passthrough
-  eleventyConfig.addPassthroughCopy({ 'src/static': './static/' });
-  eleventyConfig.addPassthroughCopy({ 'src/assets/': './assets/' });
+  eleventyConfig.addPassthroughCopy({ "src/static": "./static/" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/": "./assets/" });
 
   // Watch targets
-  eleventyConfig.addWatchTarget('./src/styles/');
+  eleventyConfig.addWatchTarget("./src/styles/");
 
-  var pathPrefix = '';
+  var pathPrefix = "";
   if (process.env.GITHUB_REPOSITORY) {
-    pathPrefix = process.env.GITHUB_REPOSITORY.split('/')[1];
+    pathPrefix = process.env.GITHUB_REPOSITORY.split("/")[1];
   }
 
   // Plugins
   eleventyConfig.addPlugin(emojiReadTime, {
-    emoji: '📖',
+    emoji: "📖",
   });
 
   // Collections
-  eleventyConfig.addCollection('sponsorsByLevel', function (collectionApi) {
+  eleventyConfig.addCollection("sponsorsByLevel", function (collectionApi) {
     const sponsors = Array.isArray(collectionApi.globalData?.sponsors)
       ? collectionApi.globalData.sponsors
       : [];
 
-    const levels = ['Platinum', 'Gold', 'Silver', 'Bronze'];
+    const levels = ["Platinum", "Gold", "Silver", "Bronze"];
 
     const result = levels.map((level) => ({
       level,
@@ -73,27 +73,27 @@ module.exports = function (eleventyConfig) {
   });
 
   // Filters
-  eleventyConfig.addFilter('usd', function (value) {
-    if (typeof value !== 'number') {
-      return 'Invalid Input';
+  eleventyConfig.addFilter("usd", function (value) {
+    if (typeof value !== "number") {
+      return "Invalid Input";
     }
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD',
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
     }).format(value);
   });
 
-  eleventyConfig.addFilter('stringify', (data) => {
-    return JSON.stringify(data, null, '\t'); // Using tab for indentation
+  eleventyConfig.addFilter("stringify", (data) => {
+    return JSON.stringify(data, null, "\t"); // Using tab for indentation
   });
 
   // @see https://www.11ty.dev/docs/quicktips/inline-css/
-  eleventyConfig.addFilter('cssmin', function (code) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
   // https://11ty.rocks/eleventyjs/data-arrays/#randomitem-filter
-  eleventyConfig.addFilter('randomItem', (arr) => {
+  eleventyConfig.addFilter("randomItem", (arr) => {
     if (!Array.isArray(arr) || arr.length === 0) {
       return [];
     }
@@ -105,7 +105,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // Get the first `n` elements of a collection.
-  eleventyConfig.addFilter('head', (array, n) => {
+  eleventyConfig.addFilter("head", (array, n) => {
     if (!Array.isArray(array) || array.length === 0) {
       return [];
     }
@@ -116,22 +116,24 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
-  eleventyConfig.addFilter('readableDate', (dateObj, format, zone) => {
+  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
     // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-    return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(format || 'dd LLL yyyy');
+    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
+      format || "dd LLL yyyy",
+    );
   });
 
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
-  eleventyConfig.addFilter('date', (value, format = 'yyyy-MM-dd') => {
-    if (!value) return '';
+  eleventyConfig.addFilter("date", (value, format = "yyyy-MM-dd") => {
+    if (!value) return "";
     return DateTime.fromISO(value).toFormat(format);
   });
 
-  eleventyConfig.addFilter('groupbyIterable', function (arr, key) {
+  eleventyConfig.addFilter("groupbyIterable", function (arr, key) {
     const grouped = arr.reduce((acc, item) => {
       const groupKey = item[key];
       if (!acc[groupKey]) acc[groupKey] = [];
@@ -143,15 +145,15 @@ module.exports = function (eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    formats: ['avif', 'webp', 'jpeg'],
+    formats: ["avif", "webp", "jpeg"],
     // output image widths
-    widths: ['auto'],
+    widths: ["auto"],
 
     // optional, attributes assigned on <img> nodes override these values
     htmlOptions: {
       imgAttributes: {
-        loading: 'lazy',
-        decoding: 'async',
+        loading: "lazy",
+        decoding: "async",
       },
       pictureAttributes: {},
     },
@@ -163,24 +165,24 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyPluginHubspot, {
     portalId: 20251227,
-    loadingMode: 'lazy',
+    loadingMode: "lazy",
   });
 
   // https://www.11ty.dev/docs/plugins/id-attribute/
   eleventyConfig.addPlugin(IdAttributePlugin, {
-    selector: 'h1,h2,h3,h4,h5,h6', // default
+    selector: "h1,h2,h3,h4,h5,h6", // default
 
     // swaps html entities (like &amp;) to their counterparts before slugify-ing
     decodeEntities: true,
 
     // check for duplicate `id` attributes in application code?
-    checkDuplicates: 'error', // `false` to disable
+    checkDuplicates: "error", // `false` to disable
 
     // by default we use Eleventy’s built-in `slugify` filter:
-    slugify: eleventyConfig.getFilter('slugify'),
+    slugify: eleventyConfig.getFilter("slugify"),
 
     filter: function ({ page }) {
-      if (page.inputPath.endsWith('test-skipped.html')) {
+      if (page.inputPath.endsWith("test-skipped.html")) {
         return false; // skip
       }
 
@@ -190,16 +192,16 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: 'src',
-      layouts: '_layouts',
-      includes: '_includes',
+      input: "src",
+      layouts: "_layouts",
+      includes: "_includes",
     },
-    pathPrefix: branch === 'dev' ? '/forum2025-dev/' : '',
+    pathPrefix: branch === "dev" ? "/forum2025-dev/" : "",
   };
 };
 
 function htmlminTransform(content, outputPath) {
-  if (outputPath.endsWith('.html')) {
+  if (outputPath.endsWith(".html")) {
     let minified = htmlmin.minify(content, {
       useShortDoctype: true,
       removeComments: true,

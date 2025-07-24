@@ -1,21 +1,21 @@
 module.exports = {
   content: [
-    './src/**/*.{html,njk}',
+    "./src/**/*.{html,njk}",
     //"./node_modules/tw-elements/js/**/*.js"
   ],
   theme: {
     extend: {
       fontFamily: {
-        'libre-baskerville': ['Libre Baskerville', 'serif'],
-        'open-sans': ['Open Sans', 'sans-serif'],
+        "libre-baskerville": ["Libre Baskerville", "serif"],
+        "open-sans": ["Open Sans", "sans-serif"],
       },
       colors: {
-        saoaBlue: '#0399FE',
-        saoaPink: '#EB008D',
-        saoaYellow: '#F9BE46',
+        saoaBlue: "#0399FE",
+        saoaPink: "#EB008D",
+        saoaYellow: "#F9BE46",
       },
     },
   },
-  //plugins: [ require("tw-elements/plugin.cjs") ],
-  darkMode: 'class',
+  plugins: [],
+  darkMode: "class",
 };

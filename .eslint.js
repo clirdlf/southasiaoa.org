@@ -5,23 +5,23 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['eslint:recommended'],
+  extends: ["eslint:recommended"],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
   overrides: [
     {
-      files: ['.eleventy.js'],
+      files: [".eleventy.js"],
       env: { node: true },
     },
     {
-      files: ['src/assets/js/**/*.js'],
+      files: ["src/assets/js/**/*.js"],
       env: { browser: true },
     },
   ],
   rules: {
-    'no-console': 'warn',
-    'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    "no-console": "warn",
+    "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
   },
 };

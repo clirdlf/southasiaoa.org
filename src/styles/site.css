@@ -1,4 +1,5 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @layer components {
   .font-libre {
@@ -15,7 +16,18 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
- 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold text-blue-500;
+  }
+  h1 {
+    @apply text-3xl md:text-4xl font-bold text-gray-600 font-[Libre_Baskerville];
+  }
+  h2 {
+    @apply text-xl mb-2;
+  }
 }
-
-
