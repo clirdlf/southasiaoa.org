@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 1.  **Clone the repository:**
 
     ```sh
-    git clone https://github.com/clirdlf/saoa.git
+    git clone https://github.com/clirdlf/southasiaoa.org.git
     cd saoa
     ```
 
