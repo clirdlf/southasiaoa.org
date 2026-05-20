@@ -9,22 +9,22 @@ The Infrastructure Working Group is a standing body of the South Asia Open Archi
 
 ## Members of the Infrastructure Working Group
 
-*   R. Prakash, Roja Muthiah Research Library (Chair)
-*   Gary Hausman, Columbia University
-*   Adnan Malik, University of California, Berkeley
-*   Jef Pierce, University of Pennsylvania
-*   Mary Rader, University of Texas at Austin
+- R. Prakash, Roja Muthiah Research Library (Chair)
+- Gary Hausman, Columbia University
+- Adnan Malik, University of California, Berkeley
+- Jef Pierce, University of Pennsylvania
+- Mary Rader, University of Texas at Austin
 
 ## Purpose
 
 The Infrastructure Working Group provides recommendations to the Executive Board on all matters associated with the supporting technological framework of SAOA. These include, but are not limited to:
 
-*   Administration, staffing, and strategic partnerships
-*   Ongoing support for process improvements, standards updates, and SAOA site enhancements
-*   Standards for digitization and metadata, SAOA’s web presence, and intellectual property rights
-*   Preservation archive for long-term storage
-*   Project-oriented work (e.g., quality control, digitization, ingest)
-*   Strategic planning for evolving technologies and new formats (e.g., images, data sets, archival material)
+- Administration, staffing, and strategic partnerships
+- Ongoing support for process improvements, standards updates, and SAOA site enhancements
+- Standards for digitization and metadata, SAOA’s web presence, and intellectual property rights
+- Preservation archive for long-term storage
+- Project-oriented work (e.g., quality control, digitization, ingest)
+- Strategic planning for evolving technologies and new formats (e.g., images, data sets, archival material)
 
 ## Rationale
 

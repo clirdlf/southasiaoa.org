@@ -45,29 +45,29 @@ NOTE: Forum entries must use UTF-8 encoding, which SAOA’s hosting platform def
         3.  Deskewed and cropped to text
 6.  File Naming:
     1.  Monographs (Single Volume)
-        1.  Format: titleID\_YEAR\_seq#.tif
-        2.  Example: 986786411\_1915\_00135.tif
+        1.  Format: titleID_YEAR_seq#.tif
+        2.  Example: 986786411_1915_00135.tif
     2.  Monographs (Multi-Volume)
-        1.  Format: titleID\_YEAR\_VOL\_seq#.tif
-        2.  Example: 990512780\_1918\_003\_00115.tif
+        1.  Format: titleID_YEAR_VOL_seq#.tif
+        2.  Example: 990512780_1918_003_00115.tif
     3.  Serials
         1.  Numbered Issues:
-            1.  Format: titleID\_YEAR\_VOL\_ISSUE\_seq#.tif
-            2.  Example: 990312980\_1915\_002\_001\_00253.tif
+            1.  Format: titleID_YEAR_VOL_ISSUE_seq#.tif
+            2.  Example: 990312980_1915_002_001_00253.tif
         2.  Dated Issues:
-            1.  Format: titleID\_YYYY-MM-DD\_seq#.tif
-            2.  Example: 22123199\_1921-12-24\_00012.tif
+            1.  Format: titleID_YYYY-MM-DD_seq#.tif
+            2.  Example: 22123199_1921-12-24_00012.tif
         3.  Quarterly Issues:
-            1.  Format: titleID\_YEAR\_Quarter\_seq#.tif
-            2.  Example: 226114808\_1895\_Spring\_00005.tif
+            1.  Format: titleID_YEAR_Quarter_seq#.tif
+            2.  Example: 226114808_1895_Spring_00005.tif
     4.  General Notes:
         1.  Master and access files must share the same base filename.
         2.  Use OCLC# as title ID.
         3.  Use 5-digit sequence numbers and 3-digit volume/issue codes.
 7.  Folders:
     1.  For each title, create two folders:
-        1.  OCLC#\_ShortTitle\_TIFF
-        2.  OCLC#\_ShortTitle\_JP2
+        1.  OCLC#\_ShortTitle_TIFF
+        2.  OCLC#\_ShortTitle_JP2
     2.  Monograph files go into the main folders.
     3.  Serials should use subfolders labeled by vol#/issue#/year.
     4.  Access and master files must match names exactly (only extensions differ).

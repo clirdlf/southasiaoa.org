@@ -12,32 +12,32 @@ All institutions that can are strongly encouraged to support SAOA at the Categor
 
 Below are general criteria to differentiate membership categories, to help institutions advocate for the most appropriate level:
 
-*   **Category 1 members might include:**
-    *   Library staff dedicated to South Asia
-    *   Robust annual South Asia library materials budgets
-    *   Historically strong South Asia collections
-    *   Significant South Asia-related courses, research, and programs
-*   **Category 2 members might include:**
-    *   Limited staffing for South Asia
-    *   Moderate materials budgets
-    *   Some South Asia-focused courses or active scholars
-*   **Category 3 members might include:**
-    *   Minimal or no budgets or staffing for South Asia
-    *   Some South Asia teaching or research interest
-    *   Significant or unique South Asia holdings
+- **Category 1 members might include:**
+  - Library staff dedicated to South Asia
+  - Robust annual South Asia library materials budgets
+  - Historically strong South Asia collections
+  - Significant South Asia-related courses, research, and programs
+- **Category 2 members might include:**
+  - Limited staffing for South Asia
+  - Moderate materials budgets
+  - Some South Asia-focused courses or active scholars
+- **Category 3 members might include:**
+  - Minimal or no budgets or staffing for South Asia
+  - Some South Asia teaching or research interest
+  - Significant or unique South Asia holdings
 
 ## Contributions
 
-*   **Category 1:** $25,000 over five years. Optional contributions may include digital assets or staff time.
-*   **Category 2:** $20,000 over five years, with optional digital/staff contributions.
-*   **Category 3:** $10,000 over five years or 500 digital volumes and/or staff time.
+- **Category 1:** $25,000 over five years. Optional contributions may include digital assets or staff time.
+- **Category 2:** $20,000 over five years, with optional digital/staff contributions.
+- **Category 3:** $10,000 over five years or 500 digital volumes and/or staff time.
 
 ## Benefits
 
-*   Stand for election to the SAOA Executive Board
-*   Serve on Content Curation, Infrastructure, or Funding Working Groups
-*   Vote in Executive Board elections
-*   Contribute to SAOA decisions and strategy
+- Stand for election to the SAOA Executive Board
+- Serve on Content Curation, Infrastructure, or Funding Working Groups
+- Vote in Executive Board elections
+- Contribute to SAOA decisions and strategy
 
 ### Staff Time (In-Kind Contributions)
 
@@ -47,9 +47,9 @@ Institutions may contribute staff time to support SAOA operations. Contributions
 
 Institutions with existing digital content or digitization capacity can contribute to SAOA’s collections, particularly if they lack infrastructure to share the content publicly.
 
-*   Contributions must align with SAOA [Selection Guidelines](/static/files/FINAL%20SAOA%20FY21-25%20Five-Year%20Plan.pdf), and be reviewed by the Executive Board.
-*   Digitization must meet [SAOA Digitization Guidelines](/digitization-guidelines/).
-*   Content must not already be publicly available on a stable platform.
+- Contributions must align with SAOA [Selection Guidelines](/static/files/FINAL%20SAOA%20FY21-25%20Five-Year%20Plan.pdf), and be reviewed by the Executive Board.
+- Digitization must meet [SAOA Digitization Guidelines](/digitization-guidelines/).
+- Content must not already be publicly available on a stable platform.
 
 To join SAOA, institutions must submit a [Participant Commitment Form](/static/files/SAOA_Participant_CommitmentForm_2022_0.pdf) establishing a five-year membership.
 

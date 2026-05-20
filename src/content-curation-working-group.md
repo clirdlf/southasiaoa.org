@@ -6,23 +6,23 @@ layout: working-group.njk
 
 ## Members
 
-*   Brent Bianchi, Yale University (Chair)
-*   Sohaib Baig, University of California, Los Angeles
-*   Deepa Banerjee, University of Washington
-*   David Magier, Princeton University
-*   Jeffrey Martin, University of Michigan
-*   James Nye, University of Chicago
-*   Ryan Perkins, Stanford University
-*   Gautham Reddy, Emory University
-*   Laura Ring, University of Chicago
+- Brent Bianchi, Yale University (Chair)
+- Sohaib Baig, University of California, Los Angeles
+- Deepa Banerjee, University of Washington
+- David Magier, Princeton University
+- Jeffrey Martin, University of Michigan
+- James Nye, University of Chicago
+- Ryan Perkins, Stanford University
+- Gautham Reddy, Emory University
+- Laura Ring, University of Chicago
 
 ## Purpose
 
 The Working Group solicits ideas for new SAOA content from scholars and librarians, researches available holdings, and selects and prioritizes materials for Executive Board consideration. These include:
 
-*   Consulting with other digital projects and archives for content
-*   Selecting titles for inclusion
-*   Addressing copyright clearance for titles
+- Consulting with other digital projects and archives for content
+- Selecting titles for inclusion
+- Addressing copyright clearance for titles
 
 ## Rationale
 

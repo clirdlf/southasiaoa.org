@@ -9,10 +9,8 @@ SAOA is developing carefully curated thematic research collections in various la
 SAOA prioritizes the following types of out-of-copyright material for digitization:
 
 1.  Official Publications
-    *   Gazetteers and Census Reports
-        
-    *   Statistical and Annual Reports
-        
+    - Gazetteers and Census Reports
+    - Statistical and Annual Reports
 2.  Serials and Newspapers
 3.  Literary and Monographic Sources
 4.  Non-Governmental Publications

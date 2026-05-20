@@ -8,10 +8,10 @@ The Funding Working Group is a standing body of the South Asia Open Archives, re
 
 ## Members of the Funding Working Group
 
-*   Abhijit Bhattacharya, Centre for Studies in Social Sciences Calcutta (Chair)
-*   Todd Michelson-Ambelang, University of Wisconsin–Madison (Treasurer)
-*   Adhitya Dhanapal, Duke University
-*   Jef Pierce, University of Pennsylvania
+- Abhijit Bhattacharya, Centre for Studies in Social Sciences Calcutta (Chair)
+- Todd Michelson-Ambelang, University of Wisconsin–Madison (Treasurer)
+- Adhitya Dhanapal, Duke University
+- Jef Pierce, University of Pennsylvania
 
 ## Purpose
 

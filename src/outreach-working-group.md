@@ -1,5 +1,5 @@
 ---
-title: Outreach Working Group 
+title: Outreach Working Group
 layout: working-group.njk
 description: Members, purpose, and responsibilities of the SAOA Outreach Working Group
 date: 2021-07-27
@@ -9,12 +9,12 @@ The Outreach Working Group is a standing body of the South Asia Open Archives (S
 
 ## Members of the Outreach Working Group
 
-*   Todd Michelson-Ambelang, University of Wisconsin–Madison (Co-Chair)
-*   Mara Thacker, University of Illinois at Urbana-Champaign (Co-Chair)
-*   Ellen Ambrosone, Princeton University
-*   Gwendolyn Kirk, Indiana University
-*   Triveni Kuchi, Rutgers, The State University of New Jersey
-*   Laura Ring, University of Chicago
+- Todd Michelson-Ambelang, University of Wisconsin–Madison (Co-Chair)
+- Mara Thacker, University of Illinois at Urbana-Champaign (Co-Chair)
+- Ellen Ambrosone, Princeton University
+- Gwendolyn Kirk, Indiana University
+- Triveni Kuchi, Rutgers, The State University of New Jersey
+- Laura Ring, University of Chicago
 
 ## Purpose
 
@@ -24,18 +24,18 @@ Our outreach is aimed at the user community writ large, encompassing both curren
 
 ## Forms of Community Engagement
 
-*   **Social Media presence and strategy:**
-    *   Sharing information about SAOA resources and activities
-    *   Engaging with content from South Asian studies, Library, or Open Access organizations
-*   **Educational support:**
-    *   Creating support materials for SAOA content, such as:
-        *   Research guides to interpret key collections (e.g., All-India census reports)
-        *   Collection introductions that frame digital holdings or provide counterpoints to colonial perspectives
-    *   Preparing sample activities and lesson plans to facilitate SAOA use in the classroom
-*   **Public events:**
-    *   Presentations or demos at South Asia-related conferences, libraries, or cultural institutions
-    *   Exhibiting at conferences and distributing promotional materials
-    *   Participating in panels or discussions on open access, digital scholarship, and South Asian studies
+- **Social Media presence and strategy:**
+  - Sharing information about SAOA resources and activities
+  - Engaging with content from South Asian studies, Library, or Open Access organizations
+- **Educational support:**
+  - Creating support materials for SAOA content, such as:
+    - Research guides to interpret key collections (e.g., All-India census reports)
+    - Collection introductions that frame digital holdings or provide counterpoints to colonial perspectives
+  - Preparing sample activities and lesson plans to facilitate SAOA use in the classroom
+- **Public events:**
+  - Presentations or demos at South Asia-related conferences, libraries, or cultural institutions
+  - Exhibiting at conferences and distributing promotional materials
+  - Participating in panels or discussions on open access, digital scholarship, and South Asian studies
 
 ## Rationale
 
