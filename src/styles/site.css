@@ -34,3 +34,13 @@
     @apply text-xl mb-2;
   }
 }
+
+@layer components {
+  #working-group {
+    @apply prose max-w-none;
+
+    h2 {
+      @apply text-xl font-semibold text-blue-500;
+    }
+  }
+}

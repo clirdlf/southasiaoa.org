@@ -1,65 +1,14 @@
 ---
 title: Executive Board
 description: Governance of the South Asia Open Archives
-layout: page.njk
+layout: working-group.njk
 ---
 
-<section class="space-y-6">
+The SAOA Executive Board comprises three representatives from SAOA member libraries and research centers, elected to three-year terms in staggered rotation by the members of SAOA. A representative from CLIR acts as a non-voting ex-officio member of the SAOA Executive Board.
 
-  <p>
-      The SAOA Executive Board comprises three representatives from SAOA member libraries and research centers, elected to three-year terms in staggered rotation by the members of SAOA. A representative from CLIR acts as a non-voting ex-officio member of the SAOA Executive Board.
-    </p>
+## Current Executive Board
 
-  <h2 class="text-xl font-semibold text-blue-500">Current Executive Board</h2>
-  
-  <ul class="list-disc list-inside space-y-2">
-    <li>
-      <a href="mailto:jfpierce@pobox.upenn.edu?subject=South%20Asia%20Open%20Archives%20(SAOA)" class="text-blue-600 underline hover:text-blue-800">
-          Jef Pierce</a>  (2025&ndash;2028), University of Pennsylvania (Chair)
-        
-      </li>
-    <li>
-      <a href="mailto:ellen.ambrosone@princeton.edu?subject=South%20Asia%20Open%20Archives%20(SAOA)" class="text-blue-600 underline hover:text-blue-800">
-          Ellen Ambrosone
-        </a> (2026&ndash;2029), Princeton University
-      </li>
-    <li>
-      <a href="mailto:gmreddy@emory.edu?subject=South%20Asia%20Open%20Archives%20(SAOA)" class="text-blue-600 underline hover:text-blue-800">
-          Gautham Reddy
-        </a> (2026&ndash;2027), Emory University
-      </li>
-    <li>
-      <a href="mailto:alucko@clir.org?subject=South%20Asia%20Open%20Archives%20(SAOA)" class="text-blue-600 underline hover:text-blue-800">
-          Amy Lucko
-        </a> (Ex-Officio), CLIR
-      </li>
-
-    {# <li>
-            <a href="mailto:c.ryanperkins@stanford.edu?subject=South%20Asia%20Open%20Archives%20(SAOA)" class="text-blue-600 underline hover:text-blue-800">
-          Ryan Perkins
-        </a> (2022&ndash;2024), SAMP Representative, Stanford University (Chair)
-      </li>
-        <li>
-            <a href="mailto:abhijit@cssscal.org?subject=South%20Asia%20Open%20Archives%20(SAOA)" class="text-blue-600 underline hover:text-blue-800">
-          Abhijit Bhattacharya
-        </a> (2021&ndash;2024), Centre for Studies in Social Sciences, Calcutta
-      </li>
-        
-      </li> #}
-    {# <li>
-          <a href="mailto:rin6@uchicago.edu?subject=South%20Asia%20Open%20Archives%20(SAOA)" class="text-blue-600 underline hover:text-blue-800">
-          Laura Ring
-        </a> (2023&ndash;2026), University of Chicago
-      </li> #}
-    {# <li>
-            <a href="mailto:ira.prakash@gmail.com?subject=SAOA" class="text-blue-600 underline hover:text-blue-800">
-          R. Prakash
-        </a> (2022&ndash;2025), Roja Muthiah Research Library
-      </li> #}
-
-    {# <li>
-            <a href="mailto:elhost@crl.edu?subject=SAOA%20Inquiry" class="text-blue-600 underline hover:text-blue-800">
-          Elizabeth Lhost
-        </a> (Ex-Officio), Center for Research Libraries #}
-  </li>
-</ul>
+*   [Jef Pierce](mailto:jfpierce@pobox.upenn.edu?subject=South%20Asia%20Open%20Archives%20(SAOA)) (2025–2028), University of Pennsylvania (Chair)
+*   [Ellen Ambrosone](mailto:ellen.ambrosone@princeton.edu?subject=South%20Asia%20Open%20Archives%20(SAOA)) (2026–2029), Princeton University
+*   [Gautham Reddy](mailto:gmreddy@emory.edu?subject=South%20Asia%20Open%20Archives%20(SAOA)) (2026–2027), Emory University
+*   [Amy Lucko](mailto:alucko@clir.org?subject=South%20Asia%20Open%20Archives%20(SAOA)) (Ex-Officio), CLIR

@@ -1,129 +1,77 @@
 ---
 title: Bylaws
 description: Ratified July 1, 2025
-layout: page
+layout: working-group
 ---
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article I: Purpose</h2>
-    <p>
-        The South Asia Open Archives (SAOA) creates and maintains, for non-commercial open access, a collection of materials in digital format related to the study of South Asia.
-    </p>
-</section>
+## Article I: Purpose
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article II: Organization</h2>
-    <p>
-        The Council for Library and Information Resources (CLIR) serves as the legal, administrative, and fiscal home of SAOA. CLIR is an independent, non-profit organization that forges strategies to enhance research, teaching, and learning environments in collaboration with libraries, cultural institutions, and communities of higher learning.  Employees funded through SAOA are either employees of CLIR or contracted labor coordinated by CLIR.  
-    </p>
-    <p>
-        The relationship between SAOA and CLIR is articulated and documented in the <a class="underline" href="/static/files/SAOA-CLIR_MOU.pdf">Memorandum of Understanding</a>.
-    </p>
-</section>
+The South Asia Open Archives (SAOA) creates and maintains, for non-commercial open access, a collection of materials in digital format related to the study of South Asia.
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article III: Membership</h2>
-    <p>
-        Institutions may join SAOA upon submitting a participant agreement signed by an authorized representative of the organization and after payment of the appropriate membership fee or in-kind contribution. South Asian institutions that become SAOA members through in-kind contributions may apply for a five-year fee waiver. Membership is subject to approval by the SAOA Executive Board.
-    </p>
-    <p>
-        Each member library or research center institution designates a Voting Representative, who is empowered to submit a vote on behalf of that member institution for any governance matters. Each member institution is granted one vote. 
-    </p>
-    <p>
-        All non-student employees, staff, faculty, and associates of member library or research center organizations are eligible to participate in project activities. With permission of the SAOA Executive Board and the local institutional representative, students at SAOA member institutions may participate in Working Group activities. 
-    </p>
-    <p>
-        SAOA assesses and sets membership fees as described in the current active Five-Year Plan.
-    </p>
-</section>
+## Article II: Organization
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article IV: Executive Board</h2>
-    <p>
-        The SAOA Executive Board shall comprise three representatives from SAOA member libraries and research centers, elected to three-year terms in staggered rotation by the members of SAOA. A representative from CLIR acts as a non-voting ex-officio member of the SAOA Executive Board.
-    </p>
-    <p>
-        The SAOA Executive Board conducts the business of SAOA, including overseeing and coordinating the work of all SAOA employees (including but not limited to those funded through SAOA).
-    </p>
-    <p>
-        The Executive Board selects a Chair (or co-Chairs) from among its members for a two-year term; reappointment is permitted. If an outgoing Executive Board member serves as chair in their third year, they serve a fourth year as ex-officio member.   
-    </p>
-</section>
+The Council for Library and Information Resources (CLIR) serves as the legal, administrative, and fiscal home of SAOA. CLIR is an independent, non-profit organization that forges strategies to enhance research, teaching, and learning environments in collaboration with libraries, cultural institutions, and communities of higher learning. Employees funded through SAOA are either employees of CLIR or contracted labor coordinated by CLIR.
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article V: Elections</h2>
-    <p>
-        One Executive Board member is normally elected at each annual election for a three-year term; membership on the Executive Board is limited to two consecutive terms. 
-    </p>
-    <p>
-        At least ninety days before the SAOA Annual Members Meeting, the SAOA Chair appoints a Nominating Committee of two or three SAOA Member Representatives. The Nominating Committee recruits candidates for the vacant position on the Executive Board.
-    </p>
-    <p>
-        At least 30 days prior to the SAOA Annual Members Meeting, the slate of candidates will be sent to SAOA staff or the Executive Board Chair from the Nominating Committee. SAOA staff or the Executive Board Chair arrange for a ballot that will be completed prior to the SAOA Annual Members Meeting. Election results are communicated to Membership after the conclusion of the voting period, but not later than the SAOA Annual Members Meeting. New terms commence immediately following the SAOA Annual Members Meeting.
-    </p>
-    <p>
-        In the event of a vacancy on the SAOA Executive Board, SAOA will hold an expedited special election for a new Executive Board member to serve the remainder of the vacated term. Fulfilling the remainder of a term does not constitute a full term. 
-    </p>
-</section>
+The relationship between SAOA and CLIR is articulated and documented in the [Memorandum of Understanding](/static/files/SAOA-CLIR_MOU.pdf).
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article VI: Working Groups</h2>
-    <p>
-        Working Groups may be established and deployed by the Executive Board as needed and will be subject to an open call for feedback from SAOA membership. 
-    </p>
+## Article III: Membership
 
-    <p>
-        Working Groups shall be coordinated by a Chair, selected from among the Working Group Members. Working Group Chairs shall serve a term of one year; reappointment is encouraged. A member of the SAOA Executive Board should participate in each of the Working Groups. 
-    </p>
+Institutions may join SAOA upon submitting a participant agreement signed by an authorized representative of the organization and after payment of the appropriate membership fee or in-kind contribution. South Asian institutions that become SAOA members through in-kind contributions may apply for a five-year fee waiver. Membership is subject to approval by the SAOA Executive Board.
 
-    <p>
-        Working Groups shall be composed of participants from SAOA member institutions. The term of membership in a Working Group is one year and is renewable. SAOA member representatives may serve on multiple Working Groups, and multiple members from a SAOA Member Institution may serve simultaneously on SAOA Working Groups. 
-    </p>
+Each member library or research center institution designates a Voting Representative, who is empowered to submit a vote on behalf of that member institution for any governance matters. Each member institution is granted one vote.
 
-    <p>
-        The SAOA Chair(s), in consultation with the Executive Board, shall appoint necessary Task Forces to accomplish projects of limited duration. 
-    </p>
-</section>
+All non-student employees, staff, faculty, and associates of member library or research center organizations are eligible to participate in project activities. With permission of the SAOA Executive Board and the local institutional representative, students at SAOA member institutions may participate in Working Group activities.
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article VII: Meetings</h2>
+SAOA assesses and sets membership fees as described in the current active Five-Year Plan.
 
-    <p>
-        The SAOA Executive Board Chair shall convene an annual Members Meeting. These meetings are a forum for sharing updates about SAOA's work and an opportunity for all SAOA members to ask questions and provide feedback.
-    </p>
+## Article IV: Executive Board
 
-    <p>
-        The SAOA Executive Board holds virtual meetings regularly during the year to discuss SAOA's progress and make decisions about further work. The Executive Board determines its own frequency of meetings.
-    </p>
+The SAOA Executive Board shall comprise three representatives from SAOA member libraries and research centers, elected to three-year terms in staggered rotation by the members of SAOA. A representative from CLIR acts as a non-voting ex-officio member of the SAOA Executive Board.
 
-    <p>Working Groups meet regularly during the year to advance their objectives. Each Working Group determines the frequency of its own meetings, depending on the business at hand. </p>
-</section>
+The SAOA Executive Board conducts the business of SAOA, including overseeing and coordinating the work of all SAOA employees (including but not limited to those funded through SAOA).
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article VIII: Amendments</h2>
-    <p>
-        Amendments to the SAOA By-laws may be proposed by any Institutional Member of SAOA. Amendments must be submitted in writing to the SAOA Chair, who will distribute the proposed amendment promptly to the SAOA membership. Once distributed, there should be a period of at least thirty days for feedback from SAOA members. 
-    </p>
+The Executive Board selects a Chair (or co-Chairs) from among its members for a two-year term; reappointment is permitted. If an outgoing Executive Board member serves as chair in their third year, they serve a fourth year as ex-officio member.
 
-    <p>
-        Proposed amendments to the By-laws shall be finalized by the SAOA Executive Board after review of the received feedback. A proposed amendment is considered adopted if it receives a two-thirds affirmative vote from the voting members of the institutional members of SAOA. 
-    </p>
-</section>
+## Article V: Elections
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">
-Article IX: Funding</h2>
-    <p>Projects and activities shall be funded by monies raised by SAOA, whether through grants, member contributions, donations, fees, or other means. The Chair and Executive Board are responsible for fiscal decisions dealing with monies allocated to or raised by SAOA.
-For significant changes regarding expenditure of SAOA funds, these officers shall consult with the membership. No part of the net earnings of SAOA shall be distributed to the benefit of any member or officer of SAOA nor any private individual (except that of reasonable compensation which may be paid for services rendered to or for SAOA). </p>
-</section>
+One Executive Board member is normally elected at each annual election for a three-year term; membership on the Executive Board is limited to two consecutive terms.
 
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Article X: Ownership and Dissolution</h2>
-    <p>
-        Assets acquired by SAOA shall be the property of SAOA, unless otherwise specified and agreed to in writing.
-    </p>
+At least ninety days before the SAOA Annual Members Meeting, the SAOA Chair appoints a Nominating Committee of two or three SAOA Member Representatives. The Nominating Committee recruits candidates for the vacant position on the Executive Board.
 
-    <p>
-        In the event of the dissolution or termination of SAOA, the SAOA Executive Board will determine the appropriate recipient of existing assets and property. In the event of the dissolution of CLIR, all remaining assets and property of SAOA, after payment of necessary expenses thereof, shall return to SAOA to be disbursed at the discretion of the SAOA Executive Board.
-    </p>
-</section>
+At least 30 days prior to the SAOA Annual Members Meeting, the slate of candidates will be sent to SAOA staff or the Executive Board Chair from the Nominating Committee. SAOA staff or the Executive Board Chair arrange for a ballot that will be completed prior to the SAOA Annual Members Meeting. Election results are communicated to Membership after the conclusion of the voting period, but not later than the SAOA Annual Members Meeting. New terms commence immediately following the SAOA Annual Members Meeting.
+
+In the event of a vacancy on the SAOA Executive Board, SAOA will hold an expedited special election for a new Executive Board member to serve the remainder of the vacated term. Fulfilling the remainder of a term does not constitute a full term.
+
+## Article VI: Working Groups
+
+Working Groups may be established and deployed by the Executive Board as needed and will be subject to an open call for feedback from SAOA membership.
+
+Working Groups shall be coordinated by a Chair, selected from among the Working Group Members. Working Group Chairs shall serve a term of one year; reappointment is encouraged. A member of the SAOA Executive Board should participate in each of the Working Groups.
+
+Working Groups shall be composed of participants from SAOA member institutions. The term of membership in a Working Group is one year and is renewable. SAOA member representatives may serve on multiple Working Groups, and multiple members from a SAOA Member Institution may serve simultaneously on SAOA Working Groups.
+
+The SAOA Chair(s), in consultation with the Executive Board, shall appoint necessary Task Forces to accomplish projects of limited duration.
+
+## Article VII: Meetings
+
+The SAOA Executive Board Chair shall convene an annual Members Meeting. These meetings are a forum for sharing updates about SAOA's work and an opportunity for all SAOA members to ask questions and provide feedback.
+
+The SAOA Executive Board holds virtual meetings regularly during the year to discuss SAOA's progress and make decisions about further work. The Executive Board determines its own frequency of meetings.
+
+Working Groups meet regularly during the year to advance their objectives. Each Working Group determines the frequency of its own meetings, depending on the business at hand.
+
+## Article VIII: Amendments
+
+Amendments to the SAOA By-laws may be proposed by any Institutional Member of SAOA. Amendments must be submitted in writing to the SAOA Chair, who will distribute the proposed amendment promptly to the SAOA membership. Once distributed, there should be a period of at least thirty days for feedback from SAOA members.
+
+Proposed amendments to the By-laws shall be finalized by the SAOA Executive Board after review of the received feedback. A proposed amendment is considered adopted if it receives a two-thirds affirmative vote from the voting members of the institutional members of SAOA.
+
+## Article IX: Funding
+
+Projects and activities shall be funded by monies raised by SAOA, whether through grants, member contributions, donations, fees, or other means. The Chair and Executive Board are responsible for fiscal decisions dealing with monies allocated to or raised by SAOA. For significant changes regarding expenditure of SAOA funds, these officers shall consult with the membership. No part of the net earnings of SAOA shall be distributed to the benefit of any member or officer of SAOA nor any private individual (except that of reasonable compensation which may be paid for services rendered to or for SAOA).
+
+## Article X: Ownership and Dissolution
+
+Assets acquired by SAOA shall be the property of SAOA, unless otherwise specified and agreed to in writing.
+
+In the event of the dissolution or termination of SAOA, the SAOA Executive Board will determine the appropriate recipient of existing assets and property. In the event of the dissolution of CLIR, all remaining assets and property of SAOA, after payment of necessary expenses thereof, shall return to SAOA to be disbursed at the discretion of the SAOA Executive Board.

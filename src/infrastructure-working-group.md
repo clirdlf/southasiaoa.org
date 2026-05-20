@@ -1,57 +1,39 @@
 ---
 title: Infrastructure Working Group
-layout: page.njk
+layout: working-group.njk
 date: 2020-09-14
 description: A standing body of the South Asia Open Archives, reporting to the SAOA Executive Board
 ---
 
-<section class="space-y-6">
+The Infrastructure Working Group is a standing body of the South Asia Open Archives, reporting to the SAOA Executive Board and working in close consultation with the SAOA Program Coordinator and other Working Groups.
 
-  <p>
-    The Infrastructure Working Group is a standing body of the South Asia Open Archives, reporting to the SAOA Executive Board and working in close consultation with the SAOA Program Coordinator and other Working Groups.
-  </p>
+## Members of the Infrastructure Working Group
 
-  <h2 class="text-xl font-semibold text-blue-500">Members of the Infrastructure Working Group</h2>
-  <ul class="list-disc list-inside space-y-1">
-    <li>R. Prakash, Roja Muthiah Research Library (Chair)</li>
-    <li>Gary Hausman, Columbia University</li>
-    <li>Adnan Malik, University of California, Berkeley</li>
-    <li>Jef Pierce, University of Pennsylvania</li>
-    <li>Mary Rader, University of Texas at Austin</li>
-  </ul>
+*   R. Prakash, Roja Muthiah Research Library (Chair)
+*   Gary Hausman, Columbia University
+*   Adnan Malik, University of California, Berkeley
+*   Jef Pierce, University of Pennsylvania
+*   Mary Rader, University of Texas at Austin
 
-  <h2 class="text-xl font-semibold text-blue-500">Purpose</h2>
-  <p>
-    The Infrastructure Working Group provides recommendations to the Executive Board on all matters associated with the supporting technological framework of SAOA. These include, but are not limited to:
-  </p>
+## Purpose
 
-  <ul class="list-disc list-inside space-y-1">
-    <li>Administration, staffing, and strategic partnerships</li>
-    <li>Ongoing support for process improvements, standards updates, and SAOA site enhancements</li>
-    <li>Standards for digitization and metadata, SAOA’s web presence, and intellectual property rights</li>
-    <li>Preservation archive for long-term storage</li>
-    <li>Project-oriented work (e.g., quality control, digitization, ingest)</li>
-    <li>Strategic planning for evolving technologies and new formats (e.g., images, data sets, archival material)</li>
-  </ul>
+The Infrastructure Working Group provides recommendations to the Executive Board on all matters associated with the supporting technological framework of SAOA. These include, but are not limited to:
 
-  <h2 class="text-xl font-semibold text-blue-500">Rationale</h2>
-  <p>
-    The Infrastructure Working Group contributes to the permanent framework underlying SAOA activities. It participates in shaping the vision of SAOA as the initiative grows and develops over time.
-  </p>
+*   Administration, staffing, and strategic partnerships
+*   Ongoing support for process improvements, standards updates, and SAOA site enhancements
+*   Standards for digitization and metadata, SAOA’s web presence, and intellectual property rights
+*   Preservation archive for long-term storage
+*   Project-oriented work (e.g., quality control, digitization, ingest)
+*   Strategic planning for evolving technologies and new formats (e.g., images, data sets, archival material)
 
-  <h2 class="text-xl font-semibold text-blue-500">Membership</h2>
-  <p>
-    The chair will be selected from among the Working Group Members.
-  </p>
+## Rationale
 
-  <h2 class="text-xl font-semibold text-blue-500">Tasks, Timelines, and Deliverables</h2>
-  <p>
-    Tasks, timelines, and deliverables are generally assigned by the Executive Board, though the Working Group may also propose tasks aligned with its purpose and SAOA's mission.
-  </p>
+The Infrastructure Working Group contributes to the permanent framework underlying SAOA activities. It participates in shaping the vision of SAOA as the initiative grows and develops over time.
 
-  {# <h2 class="text-xl font-semibold text-blue-500">Reporting</h2>
-  <p>
-    The Infrastructure Working Group reports to the Executive Board on a monthly basis or more frequently if needed. The Executive Board shares the group’s recommendations with SAOA membership.
-  </p> #}
+## Membership
 
-</section>
+The chair will be selected from among the Working Group Members.
+
+## Tasks, Timelines, and Deliverables
+
+Tasks, timelines, and deliverables are generally assigned by the Executive Board, though the Working Group may also propose tasks aligned with its purpose and SAOA's mission.

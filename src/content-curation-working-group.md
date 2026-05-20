@@ -1,80 +1,44 @@
 ---
 title: Content Curation Working Group
 description: A standing body of the South Asia Open Archives, reporting to the SAOA Executive Board and collaborating closely with the Program Coordinator and other Working Groups.
-layout: page.njk
+layout: working-group.njk
 ---
 
-<!-- Members -->
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Members</h2>
-    <ul class="list-disc list-inside space-y-1">
-        <li>Brent Bianchi, Yale University (Chair)</li>
-        <li>Sohaib Baig, University of California, Los Angeles</li>
-        <li>Deepa Banerjee, University of Washington</li>
-        <li>David Magier, Princeton University</li>
-        <li>Jeffrey Martin, University of Michigan</li>
-        <li>James Nye, University of Chicago</li>
-        <li>Ryan Perkins, Stanford University</li>
-        <li>Gautham Reddy, Emory University</li>
-        <li>Laura Ring, University of Chicago</li>
-    </ul>
-</section>
+## Members
 
-<!-- Purpose -->
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Purpose</h2>
-    <p>
-      The Working Group solicits ideas for new SAOA content from scholars and librarians, researches available holdings, and selects and prioritizes materials for Executive Board consideration. These include:
-    </p>
-    <ul class="list-disc list-inside space-y-1">
-        <li>Consulting with other digital projects and archives for content</li>
-        <li>Selecting titles for inclusion</li>
-        <li>Addressing copyright clearance for titles</li>
-    </ul>
-</section>
+*   Brent Bianchi, Yale University (Chair)
+*   Sohaib Baig, University of California, Los Angeles
+*   Deepa Banerjee, University of Washington
+*   David Magier, Princeton University
+*   Jeffrey Martin, University of Michigan
+*   James Nye, University of Chicago
+*   Ryan Perkins, Stanford University
+*   Gautham Reddy, Emory University
+*   Laura Ring, University of Chicago
 
-<!-- Rationale -->
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Rationale</h2>
-    <p>
-      This Working Group shapes SAOA’s collections. Its selection work is informed by:
-    </p>
-    <ol class="list-decimal list-inside space-y-1">
-        <li>
-        An evolving set of
-        <a href="/selection-guidelines/" class="text-blue-600 underline hover:text-blue-800">Selection Guidelines</a>
-        (with thematic and resource-type focus areas)
-      </li>
-        <li>
-            <a href="/selection-principles" class="text-blue-600 underline hover:text-blue-800">Selection Principles</a> (collection development guidelines)
-      </li>
-    </ol>
-    <p>These documents guide thematic focus and support informed decisions in building SAOA’s collections.</p>
-</section>
+## Purpose
 
-<!-- Membership -->
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Membership</h2>
-    <p>
-      The group includes three or more members from SAOA institutions, appointed by the Executive Board. 
-    </p>
-    <p>
-      The chair will be selected from among the Working Group Members. 
-    </p>
-</section>
+The Working Group solicits ideas for new SAOA content from scholars and librarians, researches available holdings, and selects and prioritizes materials for Executive Board consideration. These include:
 
-<!-- Tasks & Deliverables -->
-<section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Tasks, Timelines, and Deliverables</h2>
-    <p>
-      Typically assigned by the Executive Board, but the group may also propose initiatives that align with SAOA's mission.
-    </p>
-</section>
+*   Consulting with other digital projects and archives for content
+*   Selecting titles for inclusion
+*   Addressing copyright clearance for titles
 
-<!-- Reporting -->
-{# <section class="mb-10 space-y-4">
-    <h2 class="text-xl font-semibold text-blue-500">Reporting</h2>
-    <p>
-      Reports are submitted monthly to the Executive Board (or more frequently if requested). The Board communicates group recommendations to the SAOA membership.
-    </p>
-</section> #}
+## Rationale
+
+This Working Group shapes SAOA’s collections. Its selection work is informed by:
+
+1.  An evolving set of [Selection Guidelines](/selection-guidelines/) (with thematic and resource-type focus areas)
+2.  [Selection Principles](/selection-principles) (collection development guidelines)
+
+These documents guide thematic focus and support informed decisions in building SAOA’s collections.
+
+## Membership
+
+The group includes three or more members from SAOA institutions, appointed by the Executive Board.
+
+The chair will be selected from among the Working Group Members.
+
+## Tasks, Timelines, and Deliverables
+
+Typically assigned by the Executive Board, but the group may also propose initiatives that align with SAOA's mission.
